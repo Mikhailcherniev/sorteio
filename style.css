@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    border:0px ;
+
+
+}
+
+@font-face{
+    font-family: 'claudio';
+    src: url(font/Angello.otf);
+}
+body {
+    background-image: url(https://inscricao2023.com.br/wp-content/uploads/2022/08/2-4-scaled.jpg);
+    justify-content: space-around;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.texto{
+    font-family: claudio;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
+button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+   background-image: url(https://media.tenor.com/uZv4t9KXvCMAAAAC/rainbow-cat-rainbow.gif);
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+button:hover{
+    background-color: beige;
+    transform:scale(1.2);
+    transition: 100ms;
+    box-shadow: 0 0 200px black;
+    align-items: center;
+}
+
+.container{
+    background-image: url(https://i.gifer.com/BYNv.gif);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    text-align: center;
+    padding: 30px 40px;
+    margin: 0 40px;
+    width: 300px;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entradas{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+
+}
+
+#resultado{
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+color: rgb(255, 255, 255);
+}
+
+input {
+    border-radius: 23px;
+    font-size: 15px;
+    
+}
